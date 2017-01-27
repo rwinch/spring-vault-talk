@@ -1,0 +1,5 @@
+Samples from link:securely-managing-secrets-with-spring-vault.pdf[Securely Managing Secrets with Spring Vault] talk. Refer to the Javadoc for setup instructions:
+
+* link:hello-vault/src/main/java/sample/Main.java[hello-vault] - Runs a simple example that demos how to write and read a pojo's properties to Vault using Spring Vault's Vault template.
+* link:hello-spring-vault/src/main/java/sample/HelloSpringVaultApplication.java[hello-spring-vault] - Runs a simple example that demos how to use `@VaultPropertySource`
+* link:spring-vault-mysql/src/main/java/sample/HelloSpringVaultMySqlApplication.java[spring-vault-mysql] - Runs an example that demos how to use `@VaultPropertySource` to obtain credentials for a `DataSource` for a MySQL database
